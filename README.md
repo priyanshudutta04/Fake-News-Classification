@@ -6,6 +6,36 @@ Fake News Classification using Bidirectional LSTM
 
 The Fake News Classification project aims to tackle misinformation using advanced natural language processing techniques. By utilizing a Bidirectional Long Short-Term Memory (BiLSTM) network, this project classifies news articles as either real or fake. The BiLSTM model effectively captures the context of words from both directions in a sentence, making it a powerful tool for detecting fake news. This repository includes all necessary scripts, models, and datasets for data preprocessing, model training, and prediction.
 
+## Data
+
+The dataset used in this project is available in the `data` directory. It is in CSV (Comma-Separated Values) format.
+
+<br/>
+
+Dataset Source Link: [kaggle dataset](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification/data?select=fetal_health.csv)
+
+## Usage
+   
+1. Clone the repository
+```
+git clone https://github.com/priyanshudutta04/Fake-News-Classification.git
+```
+
+2. Install dependencies
+```
+pip install -r requirements.txt
+```
+
+3. Run the Model
+```
+jupyter notebook Model_Training.ipynb
+```
+<br/>
+
+*Note: If GPU is available install `cuda toolkit` and `cuDNN` for faster execution*
+
+
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for improving the model or adding new features, please feel free to fork the repository and submit a pull request.
