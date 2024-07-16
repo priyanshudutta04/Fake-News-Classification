@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 3. Run the Model
 ```
-jupyter notebook Model_Training.ipynb
+jupyter notebook Fake-News-Classification.ipynb
 ```
 <br/>
 
